@@ -1,0 +1,24 @@
+.SearchBar[type=text] {
+  text-align: justify;
+  width: 45%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 7px;
+  font-size: 20px;
+  font-family: archia;
+  color: #7d788e;
+  background-color: #fbfeff;
+  box-shadow: 0 10px 35px rgba(0,0,0,.1);
+  background-image: url('./25px.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-top: 5%;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+
+.SearchBar[type=text]:focus {
+  width: 65%;
+  -webkit-transition: width 0.6s ease-in-out;
+  outline: none;
+}
