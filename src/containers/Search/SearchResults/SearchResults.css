@@ -1,3 +1,23 @@
+.SearchResultZoneNotProvided {
+  text-align: justify;
+  text-decoration: none;
+  align-self: flex-start;
+  border-bottom: 2px solid rgba(108,117,125,.0627451);
+  color: #6c757d;
+  display: flex;
+  flex-direction: row;
+  font-family: "archia";
+  font-size: 16px;
+  justify-content: space-between;
+  padding: .5rem;
+  transition: all .6s ease-in-out; 
+  width: 62%;
+  margin: auto;
+  margin-bottom: 1px;
+  margin-top: 3px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
 .SearchResultItemGreen {
   text-align: justify;
   text-decoration: none;

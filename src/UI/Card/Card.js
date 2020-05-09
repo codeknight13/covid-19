@@ -2,8 +2,8 @@ import React from 'react'
 import classes from './Card.css'
 
 const card = (props) => {
-  console.log(props);
-  let cardClass = null;
+  // console.log(props);
+  let cardClass = classes.cardZoneNotProvided;
   if (props.cardData.zone==='Green') {
     cardClass=classes.cardGreen
   }

@@ -16,7 +16,7 @@ const searchResults = props => {
   // console.log('SearchResults',props.cities);
   let searchResult = [];
   for (let i=0; i<props.cities.length; i++) {
-    let itemClass = null;
+    let itemClass = classes.SearchResultZoneNotProvided;
     // console.log('zone',(props.cities[i].zone))
     if (props.cities[i].zone==='Green') {
       itemClass=classes.SearchResultItemGreen;
