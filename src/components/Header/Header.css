@@ -1,0 +1,8 @@
+.Header {
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: rgba(39, 29, 71, 0.938);
+  padding: 20px 10px;
+  font-size: 40px;
+  color: aliceblue;
+}

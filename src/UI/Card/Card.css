@@ -1,0 +1,45 @@
+.cardRed {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  transition: 0.3s;
+  margin: auto;
+  width: 65%;
+  margin-top: 20px;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.cardRed:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardGreen {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  transition: 0.3s;
+  margin: auto;
+  width: 65%;
+  margin-top: 20px;
+  background-color: rgba(98, 255, 98, 0.1);
+}
+
+.cardGreen:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardOrange {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  transition: 0.3s;
+  margin: auto;
+  width: 65%;
+  margin-top: 20px;
+  background-color: rgba(255, 213, 98, 0.1);
+}
+
+.cardOrange:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
