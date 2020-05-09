@@ -17,3 +17,5 @@ Ex : SEARCH = "Mo", SUGGESTIONS => ["Morigaon", "Morena", "Shivamogga"] in lexic
 
 * The source folder has all the import files
 * Download zip, extract it, run npm install then run npm start
+---
+[Live URL](http://covid-19-tracker-by-vikram.herokuapp.com/)
